@@ -4,7 +4,7 @@
 
 ## Exercise Description:
 
-## We have an employee object with keys like id, name, and salary. We want to prefix each key with emp_.
+## We have an employee object with keys like id, name, and salary. We want to prefix each key with emp_
 
 ### Learning Objectives:
 1. Creating mapped types with generics
@@ -31,5 +31,7 @@ const prefixEmployee = {
 
 ## HINT
 **keyof T : Retrieves all the keys of the object type T.**
+
 **in: Iterates over each key in keyof T.**
+
 **as: Dynamically renames each key using a template literal type**
