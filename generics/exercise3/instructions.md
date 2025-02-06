@@ -10,13 +10,12 @@
 
 1. If the employee is an Intern, the bonus rate should be 5% of their salary.
 2. If the employee is an regular employee , the bonus rate should be employee.salary \* 0.1;
-3. If the employee is an regular Manager , the bonus rate should be manager.salary _ 0.15 + manager.teamSize _ 1000
-4. If no type parameter is provided, the function assumes the Employee type
+3. If the employee is an regular Manager , the bonus rate should be manager.salary\*0.15 + manager.teamSize \*1000
+4. If no type parameter is provided, the function assumes the Employee type of regular employee 
 
 ## HINT
 
-*##*Type Narrowing:
-*##*Use type guards ('property' in object) to differentiate between types within a generic function.\*\*
+**Type Narrowing: Use type guards ('property' in object) to differentiate between types within a generic function.**
 
 ### Learning Objectives:
 
