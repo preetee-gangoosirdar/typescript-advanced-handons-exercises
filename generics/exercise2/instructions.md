@@ -3,13 +3,14 @@
 **Instructions:**
 
 
-## Exercise Description: Build an organization management system that demonstrates the power of generic constraints by managing different types of employees with varying roles and attributes.
+## Exercise Description: 
+Build an organization management system that demonstrates the power of generic constraints by managing different types of employees with varying roles and attributes.
 
-**Learning Objectives:**
+### Learning Objectives:
 
-### 1.Understand generic constraints with class inheritance
-### 2.Practice type-safe operations with generics
-### 3.Implement role-specific functionality while maintaining code reusability
+1. Understand generic constraints with class inheritance
+2. Practice type-safe operations with generics
+3. Implement role-specific functionality while maintaining code reusability
 
 
 ### Base Structure:
