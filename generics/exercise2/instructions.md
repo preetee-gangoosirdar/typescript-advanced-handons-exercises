@@ -7,9 +7,9 @@
 
 **Learning Objectives:**
 
--Understand generic constraints with class inheritance
--Practice type-safe operations with generics
--Implement role-specific functionality while maintaining code reusability
+### 1.Understand generic constraints with class inheritance
+### 2.Practice type-safe operations with generics
+### 3.Implement role-specific functionality while maintaining code reusability
 
 
 ### Base Structure:
@@ -39,7 +39,7 @@ class Employee extends Person {
 
 
 ```
-### Base Structure:usage
+### Base Structure: Usage + Hint
 ```typescript
    const admin = new EmployeeManagement<Employee>();
    admin.addEmployee({name:'Jack',position:'Designer',departmentId:10})
